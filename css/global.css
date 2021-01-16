@@ -1,0 +1,38 @@
+:root{
+  /* 1rem = 10px */
+  font-size: 62.5%;
+
+  /* variaveis */
+  --bg-primary: #F8FFE5;
+  --text-primary: #F8FFE5;
+
+  --clr-primary: #28ABB9;
+  --clr-primary-lighter: #5CD8E5;
+  --clr-primary-stronger: #0F7799;
+
+  --clr-secondary: #2D6187;
+  --clr-secondary-lighter: #5397AD;
+  --clr-secondary-stronger: #123C66;
+
+  --clr-terciary: #D4B331;
+  --clr-terciary-lighter: #FAE05F;
+  --clr-terciary-stronger: #AD830E;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
