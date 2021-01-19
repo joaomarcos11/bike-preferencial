@@ -6,12 +6,13 @@ body {
   background-color: var(--bg-primary);
 }
 
-/* MENU DE NAVEGAÇÃO LATERAL */
+/* START: MENU DE NAVEGAÇÃO */
 
 #nav-side {
-  height: 18.5rem;
-  width: 28rem;
-  margin-right: 2rem;
+  height: 16.5rem;
+  width: 24rem;
+  /* margin-top: 2rem; */
+  margin-right: 4rem;
   background-color: var(--clr-primary-stronger);
   display: flex;
   flex-direction: column;
@@ -28,13 +29,13 @@ body {
 }
 
 #nav-side li {
-  /* border: 1px solid red; */
+  /* border: 0.5px solid red; */
   margin: 0.5rem auto;
   padding: 0.5rem;
 }
 
 #nav-side a {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: var(--text-primary);
   text-transform: uppercase;
   font-weight: 300;
@@ -46,6 +47,8 @@ body {
   color: var(--clr-terciary-lighter);
   font-weight: 400;
 }
+
+/* END: MENU DE NAVEGAÇÃO */
 
 /* SLIDES */
 
@@ -191,6 +194,10 @@ article#faixa .slide2 .text-box {
   margin: 4rem 4rem 4rem 4rem;
 }
 
+article#faixa .slide2 .text-box .spot {
+  transition: all 0.3s;
+}
+
 article#faixa .slide2 .text-box p + p {
   margin-top: 1.6rem;
 }
@@ -209,3 +216,14 @@ article#faixa .slide2 .bike-icons img {
 }
 
 /* END: SLIDE FAIXA */
+
+/* Classes a serem adicionas por JQuery */
+.anchor-active {
+  color: var(--clr-terciary-lighter) !important; 
+  font-weight: 400 !important;
+}
+
+.highlightedJQ {
+  background-color: var(--clr-terciary);
+  padding: 0 0.14em;
+}
