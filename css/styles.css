@@ -194,7 +194,7 @@ article#faixa .slide2 .text-box {
   margin: 4rem 4rem 4rem 4rem;
 }
 
-article#faixa .slide2 .text-box .spot {
+article#faixa .slide2 .text-box p {
   transition: all 0.3s;
 }
 
@@ -224,6 +224,6 @@ article#faixa .slide2 .bike-icons img {
 }
 
 .highlightedJQ {
-  background-color: var(--clr-terciary);
-  padding: 0 0.14em;
+  background-color: var(--clr-terciary) !important;
+  padding: 0 0.14em !important;
 }
